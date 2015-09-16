@@ -1,0 +1,55 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+typedef enum
+{
+    BotResultWin = 0,
+    BotResultLose,
+    BotResultDraw,
+    BotResultRandom,
+    BotResultLast
+}BotResults;
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <CoreData/CoreData.h>
+#import "AppDelegate.h"
+#endif
+
+#define DELEGATE ((AppDelegate *)[UIApplication sharedApplication].delegate)
+#define isPhone568 ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone && [UIScreen mainScreen].bounds.size.height == 568)
+#define isPad ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad)
+#define isPhone ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone && [UIScreen mainScreen].bounds.size.height != 568)
+
+#define AdMob_ID @"ca-app-pub-9702508691560001/3155482170"
+#define AdMob @"a1528c808ada8a8"
+
+#define TapJoyConnect @"2c519622-9665-45ab-9c02-37efc8fedfb9"
+#define TapJoyKey @"m8yOQ5YPldbxViZk1PfY"
+
+#define iVengo_ID @"aj30b8inmzpg"
+
+#define kLeaderboardID @"cars_2_quiz_leaderboard"
+#define ChartboostAppId @"528c81c116ba47735f000003"
+#define ChartboostSignature @"112c337984525d2f5ee96e5189aba1bcd4856bf6"
+
+#define AppEmperorServerID 40
+#define AppEmperorBannerID_EN 101
+#define AppEmperorBannerID_RU 100
+#define AppEmeprorAlertID 345
+#define iTunesLink @"http://itunes.apple.com/app/cars-2-guess-win!/id760231942"
+#define iTunedID @"760231942"
+
+#define FlurryAppId @"F9DQZZP9BFSMY3BQB7RQ"
+
+#define TimerValue 12

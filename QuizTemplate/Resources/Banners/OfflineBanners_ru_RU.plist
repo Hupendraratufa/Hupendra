@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>bannerId</key>
+		<integer>115</integer>
+		<key>bannerLink</key>
+		<string>http://itunes.apple.com/app/cars-guess-win!/id648838825</string>
+	</dict>
+	<dict>
+		<key>bannerId</key>
+		<integer>107</integer>
+		<key>bannerLink</key>
+		<string>purchase</string>
+	</dict>
+	<dict>
+		<key>bannerId</key>
+		<integer>108</integer>
+		<key>bannerLink</key>
+		<string>http://itunes.apple.com/app/pdd-2014-s-illustraciami-i/id732804591</string>
+	</dict>
+	<dict>
+		<key>bannerId</key>
+		<integer>109</integer>
+		<key>bannerLink</key>
+		<string>http://itunes.apple.com/app/movies-photo-quiz.-guess-movie!/id770845053</string>
+	</dict>
+</array>
+</plist>

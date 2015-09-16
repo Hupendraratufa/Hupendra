@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Consumables</key>
+	<dict>
+		<key>com.cars2.donate_300</key>
+		<dict>
+			<key>Count</key>
+			<integer>300</integer>
+			<key>Name</key>
+			<string>coins</string>
+		</dict>
+		<key>com.cars2.donate_750</key>
+		<dict>
+			<key>Count</key>
+			<integer>750</integer>
+			<key>Name</key>
+			<string>coins</string>
+		</dict>
+		<key>com.cars2.donate_1800</key>
+		<dict>
+			<key>Count</key>
+			<integer>1800</integer>
+			<key>Name</key>
+			<string>coins</string>
+		</dict>
+		<key>com.cars2.donate_3000</key>
+		<dict>
+			<key>Count</key>
+			<integer>3000</integer>
+			<key>Name</key>
+			<string>coins</string>
+		</dict>
+		<key>com.cars2.donate_1000</key>
+		<dict>
+			<key>Count</key>
+			<integer>1</integer>
+			<key>Name</key>
+			<string>coins</string>
+		</dict>
+	</dict>
+	<key>Non-Consumables</key>
+	<array>
+		<string>com.cars2.remove_ads</string>
+	</array>
+	<key>Subscriptions</key>
+	<dict/>
+</dict>
+</plist>

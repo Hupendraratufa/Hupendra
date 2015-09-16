@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<localization>
+    <string key="txt_getFreeCoins"              value="Бесплатные монетки*"/>
+<string key="txt_freeCoins"              value="Бесплатные монетки"/>
+    <string key="txt_earnCoins"                 value="заработать монетки"/>
+    <string key="txt_membership"                value="*Необходима регистрация на Tapjoy.com"/>
+    <string key="txt_loadSavePoint"             value="Восстановить монетки"/>
+    <string key="txt_back"                      value="Назад"/>
+    <string key="txt_noCoins"              value="у вас недостаточно монеток!"/>
+    <string key="txt_buyCoins"              value="купить монетки"/>
+    <string key="txt_watchVideo"              value="Watch video"/>
+
+    <string key="txt_cancel"            value="отмена"/>
+    <string key="txt_enterName"         value="введите имя"/>
+    <string key="txt_save"              value="сохранить"/>
+
+    <string key="txt_startOnline"             value="состязание"/>
+    <string key="txt_subStartOnline"            value="(2 игрока online)"/>
+    <string key="txt_startOffline"              value="тренировка"/>
+    <string key="txt_subStartOffline"           value="(1 игрок offline)"/>
+    
+    <string key="txt_recordTable"       value="Таблица рекордов"/>
+    <string key="txt_getCoins"          value="Получить монетки"/>
+    <string key="txt_adFree"            value="Отключить рекламу"/>
+    
+    <string key="txt_alertInfo"         value="Все фото, использованные в приложении,подобраны на свободных интернет-ресурсах и считаются нами публичной собственностью, если обратное не будет доказано. Мы не пытаемся присвоить материалы, и если вы считаете, что ваши авторские права нарушены, то свяжитесь с нами, написав на buhlak@emperorlab.com"/>
+    
+    <string key="txt_alertInfo_ipad"         value="Все фото, использованные в приложении,
+подобраны на свободных интернет-ресурсах
+и считаются нами публичной собственностью,
+если обратное не будет доказано.
+Мы не пытаемся присвоить материалы,
+и если вы считаете, что ваши авторские
+права нарушены, то свяжитесь с нами,
+написав на buhlak@emperorlab.com"/>
+    
+    <string key="txt_shareTitle"    value="Друзья, подскажите правильный вариант..."/>
+    
+    <string key="txt_cancel"        value="Отмена"/>
+    <string key="txt_continue"      value="Продолжить"/>
+    <string key="txt_offlineAlert"  value="В режиме тренировки вы не 
+
+сможете зарабатывать 
+
+монетки, однако за каждый 
+    
+неправильный ответ будете 
+    
+терять 5 монет!"/>
+    <string key="txt_offlineAlert_ipad"  value="В режиме тренировки вы не 
+
+сможете зарабатывать монетки,
+    
+однако за каждый неправильный 
+    
+ответ будете терять 5 монет!"/>
+    
+    <string key="txt_firstLaunch"               value="Ежедневно вы будете 
+получать +25 монет
+просто за то,
+что открыли игру!"/>
+    
+    <string key="txt_firstLaunch_ipad"               value="Ежедневно 
+вы будете получать
++25 монет
+просто за то,
+что открыли игру!"/>
+    
+    <string key="txt_notEnoughtMoney"           value="У вас недостаточно монеток (необходимый минимум 25). Купите монеты или дождитесь нового ежедневного бонуса"/>
+    <string key="txt_notEnoughtMoney_ipad"           value="У вас недостаточно монеток (необходимый минимум 25). Купите монеты или дождитесь нового ежедневного бонуса"/>
+    <string key="txt_victory"                   value="Победа!"/>
+    <string key="txt_lose"                 value="Вы проиграли…"/>
+    <string key="txt_draw"                  value="Ничья"/>
+    <string key="txt_badTime"               value="(худшее время)"/>
+    <string key="txt_bestTime"              value="(лучшее время)"/>
+    <string key="txt_search"               value="Поиск соперника"/>
+    <string key="txt_wait"                  value="Ожидание соперника"/>
+    <string key="txt_makeBid"          value="Сделай свою ставку:"/>
+    <string key="txt_makeMinimum"          value="Минимальная. 25 монет"/>
+    <string key="txt_makeMedium"          value="Средняя. 50 монет"/>
+    <string key="txt_makeHigh"          value="Высокая. 75 монет"/>
+    <string key="txt_makeVip"          value="VIP-ставка. 100 монет"/>
+    <string key="txt_present"           value="+25 монет"/>
+    <string key="txt_error"         value="Соединение недоступно.
+Попробуйте позже"/>
+    
+        <string key="txt_restoreAds"        value="Восстановить покупку"/>
+    <string key="txt_ads"               value="(убрать рекламу)"/>
+    
+    <string key="txt_everyMinuteCoins"      value="За каждую 2 минуту, проведенную в приложении, вам будет начисляться 5 монетка! (Ваш %@ должен иметь доступ к Интернету)"/>
+    
+    
+    <string key="txt_appName"               value="Авто 2: угадай фото!"/>
+    <string key="txt_postTitle"             value="Авто 2: угадай фото! Грамотная игруха!"/>
+    <string key="txt_inviteFriends"          value="Пригласи друга играть (Game Center): +25 монеток"/>
+        <string key="txt_shareToFacebook"          value="Посоветуй игру друзьям Facebook: +25 монеток"/>
+        <string key="txt_shareToVkontakte"          value="Посоветуй игру друзьям  Вконтакте: +25 монеток"/>
+    <string key="txt_inviteAlert"               value="Спасибо! 
+    
+Вы заработали 25 монеток! 
+    
+Завтра пригласите еще одного друга - 
+    
+и заработайте снова!"/>
+    
+    <string key="txt_rateUs"        value="Оцените нас в AppStore ★★★★★. Получите 50 монеток Бесплатно"/>
+    <string key="txt_rateTitle"     value="Нужны монетки?"/>
+    <string key="txt_Cancel"        value="Отмена"/>
+    <string key="txt_Get25"         value="+50 монеток"/>
+    <string key="txt_remindLater"   value="Напомнить позже"/>
+    
+    <string key="txt_winOffline"        value="ПРАВИЛЬНО! 
++%@ монет и +%@ очков"/>
+    <string key="txt_loseOffline"        value="НЕПРАВИЛЬНО! 
+%@ монет"/>
+<string key="txt_mailLinkError"         value="Чтобы отправить ссылку на email, необходимо настроить почтовый клиент"/>
+
+
+    <string key="txt_right"         value="ПРАВИЛЬНО!"/>
+</localization>

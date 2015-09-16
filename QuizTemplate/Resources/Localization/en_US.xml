@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<localization>
+    <string key="txt_getFreeCoins"              value="Get Free coins*"/>
+    <string key="txt_freeCoins"              value="Get Free coins"/>
+        <string key="txt_earnCoins"                 value="Earn сoins"/>
+        <string key="txt_membership"                value="*Tapjoy.com membership required"/>
+    <string key="txt_loadSavePoint"             value="Restore coins"/>
+    <string key="txt_back"                      value="Back"/>
+    <string key="txt_noCoins"              value="Please buy coins or watch a free video to continue playing"/>
+    <string key="txt_buyCoins"              value="Buy coins"/>
+    <string key="txt_watchVideo"              value="Watch video"/>
+
+    <string key="txt_cancel"            value="cancel"/>
+    <string key="txt_enterName"         value="Enter your name"/>
+    <string key="txt_save"              value="save"/>
+
+    <string key="txt_startOnline"             value="ONLINE COMPETITION"/>
+    <string key="txt_subStartOnline"            value="(2 players)"/>
+    <string key="txt_startOffline"              value="OFFLINE TRAINING"/>
+    <string key="txt_subStartOffline"           value="(1 player)"/>
+    
+    <string key="txt_recordTable"       value="Leaderboard"/>
+    <string key="txt_getCoins"          value="Get Coins"/>
+    <string key="txt_adFree"            value="Remove Ads"/>
+    
+    <string key="txt_alertInfo"         value="All the photos presented in this app were obtained from freely-accessible sources on the Internet and are believed to be in the public domain until proven otherwise. No attempt has been made to appropriate the materials. If you believe that your copyright has been misused, please contact us at buhlak@emperorlab.com"/>
+    
+    <string key="txt_alertInfo_ipad"         value="All the photos presented in this app were obtained from freely-accessible sources on the Internet and are believed to be in the public domain until proven otherwise. No attempt has been made to appropriate the materials. If you believe that your copyright has been misused, please contact us at buhlak@emperorlab.com"/>
+    
+    <string key="txt_shareTitle"    value="Friends, help me choose the right answer, please!"/>
+    
+    <string key="txt_cancel"        value="Cancel"/>
+    <string key="txt_continue"      value="continue"/>
+    <string key="txt_offlineAlert"  value="When playing in the training mode, 
+
+you won’t be able to earn coins.
+
+Nevertheless, five coins will be 
+    
+deducted for each wrong answer!"/>
+    <string key="txt_offlineAlert_ipad"  value="When playing in the training mode, 
+    
+you won’t be able to earn coins.
+
+Nevertheless, five coins will be deducted 
+    
+for each wrong answer!"/>
+
+    
+    <string key="txt_firstLaunch"               value="You’ll be getting
++25 free coins every day
+for simply opening the game"/>
+    <string key="txt_firstLaunch_ipad"               value="You’ll be getting
++25 free coins every day
+for simply opening the game"/>
+    
+    <string key="txt_notEnoughtMoney"           value="Please buy coins or watch a free video to continue playing
+
+(25 coins is the minimum needed). 
+    
+To continue, buy coins or 
+
+wait to get the next daily bonus."/>
+    <string key="txt_notEnoughtMoney_ipad"           value="Please buy coins or watch a free video to continue playing
+    
+(25 coins is the minimum needed). 
+    
+To continue, buy coins or 
+    
+wait to get the next daily bonus."/>
+    
+    <string key="txt_victory"                   value="You have won!"/>
+    <string key="txt_lose"                 value="You have lost…"/>
+    <string key="txt_draw"                  value="The game has ended in a draw"/>
+    
+    <string key="txt_badTime"               value="(you’ve clocked the slowest time)"/>
+    <string key="txt_bestTime"              value="(you’ve clocked the fastest time)"/>
+    <string key="txt_search"               value="Searching for a competitor…"/>
+    <string key="txt_wait"                  value="Waiting for the competitor…"/>
+
+    <string key="txt_makeBid"          value="Make your bid:"/>
+    <string key="txt_makeMinimum"          value="Minimum bid. 25 coins"/>
+    <string key="txt_makeMedium"          value="Medium bid. 50 coins"/>
+    <string key="txt_makeHigh"          value="High bid. 75 coins"/>
+    <string key="txt_makeVip"          value="VIP bid. 100 coins"/>
+    
+     <string key="txt_present"           value="+25 coins"/>
+    <string key="txt_error"         value="Connection failed.
+Try again later"/>
+    
+    <string key="txt_restoreAds"        value="Restore purchase"/>
+    <string key="txt_ads"               value="(remove ads)"/>
+    
+    <string key="txt_everyMinuteCoins"      value="You’ll be getting 5 coin for each 2 minute spent in the application! (Your %@ must have internet access)"/>
+    
+
+    <string key="txt_appName"           value="Cars 2: Guess & Win!"/>
+     <string key="txt_postTitle"             value="Cars 2: Guess & Win! Cool game!"/>
+    <string key="txt_inviteFriends"          value="Invite your friend to play (Game Center): +25 coins"/>
+
+    <string key="txt_shareToFacebook"          value="Share this game on Facebook: +24 coins"/>
+    <string key="txt_shareToVkontakte"          value="Share this game on Vkontanke: +24 coins"/>
+    <string key="txt_inviteAlert"               value="Thanks! 
+
+You've earned 25 coins! 
+    
+Invite one more friend tomorrow
+    
+and get coins again!"/>
+    
+    <string key="txt_rateUs"        value="Rate us in AppStore ★★★★★! Get 50 coins for free!"/>
+    <string key="txt_rateTitle"     value="Need coins?"/>
+    <string key="txt_Cancel"        value="Cancel"/>
+    <string key="txt_Get25"         value="Get 50 coins"/>
+    <string key="txt_remindLater"   value="Remind later"/>
+    
+    
+    <string key="txt_winOffline"        value="Right!
++%@ coins & +%@ points"/>
+    <string key="txt_loseOffline"        value="Wrong! 
+%@ coins"/>
+    <string key="txt_mailLinkError"         value="To send the link to your email address, set up your mail client"/>
+    <string key="txt_right"         value="Right!"/>
+    
+</localization>

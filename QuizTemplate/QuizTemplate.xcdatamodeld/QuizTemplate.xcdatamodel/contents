@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14C109" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Bot" representedClassName="Bot" syncable="YES">
+        <attribute name="botName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="OpenedCell" representedClassName="OpenedCell">
+        <attribute name="cellX" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="cellY" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="question" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Question" inverseName="openedCells" inverseEntity="Question" syncable="YES"/>
+        <userInfo/>
+    </entity>
+    <entity name="Person" representedClassName="Person">
+        <attribute name="botDraws" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="botLoses" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="botWins" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="coinsBought" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="coinsEarned" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="cointsTapJoy" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="lossCoin" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="points" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="questionIndex" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="winCoin" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <userInfo/>
+    </entity>
+    <entity name="Question" representedClassName="Question">
+        <attribute name="questionId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="questionRemoveAllCells" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <relationship name="openedCells" toMany="YES" minCount="1" deletionRule="Cascade" destinationEntity="OpenedCell" inverseName="question" inverseEntity="OpenedCell">
+            <userInfo/>
+        </relationship>
+        <relationship name="questionAnswers" toMany="YES" minCount="1" deletionRule="Cascade" destinationEntity="QustionInfo" inverseName="question" inverseEntity="QustionInfo">
+            <userInfo/>
+        </relationship>
+        <userInfo/>
+    </entity>
+    <entity name="QustionInfo" representedClassName="QustionInfo">
+        <attribute name="bIsRemoved" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="bIsRightAnswer" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="index" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="question" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Question" inverseName="questionAnswers" inverseEntity="Question">
+            <userInfo/>
+        </relationship>
+        <userInfo/>
+    </entity>
+    <fetchRequest name="question_by_index" entity="Question" predicateString="questionId == $questionId"/>
+    <fetchRequest name="question_sorted_by_id" entity="Question"/>
+    <elements>
+        <element name="Bot" positionX="0" positionY="0" width="128" height="60"/>
+        <element name="OpenedCell" positionX="0" positionY="0" width="128" height="90"/>
+        <element name="Person" positionX="0" positionY="0" width="128" height="195"/>
+        <element name="Question" positionX="0" positionY="0" width="128" height="105"/>
+        <element name="QustionInfo" positionX="0" positionY="0" width="128" height="120"/>
+    </elements>
+</model>
