@@ -716,7 +716,7 @@
     [_btnRemoveAds removeFromSuperview];
 }
 - (IBAction)didRemoveAds:(id)sender {
-   //hupendra
+   //hupendrafdfdf
     [Localytics tagEvent:@"Every time Admob Ad is pressed / opened "];
     
     [MBProgressHUD showHUDAddedTo:self.view animated:YES];
